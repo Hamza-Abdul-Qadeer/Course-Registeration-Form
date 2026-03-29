@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registeration Form</title>
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+
+    <form method="POST">
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="fullname" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" name="html"> HTML
+        <input type="checkbox" name="css"> CSS
+        <input type="checkbox" name="js"> JavaScript
+        <input type="checkbox" name="python"> Python
+        <input type="checkbox" name="AIML"> AI/ML
+        <br><br>
+
+        <label>Country:</label><br>
+        <select name="country">
+            <option>Pakistan</option>
+            <option>Turkey</option>
+            <option>France</option>
+            <option>Japan</option>
+            <option>UK</option>
+            <option>Germany</option>
+        </select>
+        <br><br>
+
+        <label>Message:</label><br>
+        <textarea name="message"></textarea>
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+</body>
+
+</html>
